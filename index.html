@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/flowers.png" type="image/x-icon">
+    <title>Flowers</title>
+</head>
+<body>
+    <audio id="background-music" autoplay loop>
+        <source src="img/a_silent.mp3" type="audio/mpeg">
+        Browser Anda tidak mendukung elemen audio.
+    </audio>
+    <iframe src="music.html" style="display:none;"></iframe>
+    <div class="greetings">
+    <!-- silahkan menambah kata sesuai keinginan dengan <span>text...</span -->
+        <span>M</span>
+        <span>I</span>
+        <span>K</span>
+        <span>E</span>
+        <span>A</span>
+        <span>Y</span>
+        <span>U</span>
+        <span>R</span>
+        <span>A</span>
+        <span>D</span>
+        <span>I</span>
+        <span>T</span>
+        <span>A</span>
+    </div>
+    <div class="description">
+        <span>Aku Bukan Mas Mas yang beliin bucket bunga,
+            Bukan Mas Mas yang bikinin bunga Dari pita,
+            Aku cuma bisa ngasih ini
+        </span>
+    </div>
+    <iframe id="content-frame" src="flower.html" style="width:100%; height:100vh;"></iframe>
+    <div class="button">
+        <button>
+            <a href="flower.html">PENCET YAK</a>
+        </button>
+        <div class="music-controls">
+            <button id="play-button">Play</button>
+            <button id="pause-button">Pause</button>
+        </div>
+        
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
